@@ -1,0 +1,19 @@
+
+.container{
+    border: 1px solid var(--color-verdeAAmarillo-bordes);
+    width: 300px;
+    height: 300px;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    text-align: center;
+    background-color: rgba(2, 62, 125,0.6);
+
+}
+.img{
+    height: 120px;
+    opacity: none;
+}
+.h{
+    font-weight: 900;
+    color: white;
+}

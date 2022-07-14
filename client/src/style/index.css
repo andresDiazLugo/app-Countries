@@ -1,0 +1,40 @@
+@import "./normalize.css";/*importo normalize para que todos lo elementos de mi html se vean iguales en todos los navegadores*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&family=Roboto:wght@300&display=swap');/** importo esta tipografia para toda la app*/
+
+body{
+  position: relative;
+  padding-bottom: 10rem; 
+  min-height: 100vh;
+}
+
+
+
+:root{
+  font-family: 'Nunito Sans', sans-serif;
+  background-image: url(../img//digital-world-map-hologram-blue-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover; 
+
+
+
+
+/*variables de css*/
+--color-verdeAAmarillo-bordes: #ccff33;
+--color-azulOscuro: #0d3b66;
+--color-blanco-h1:#ffffff;
+--color-celeste-span:#90e0ef;
+--color-naranja-botones:#fb8500;
+--color-hoverBtn-botones:#dc2f02;
+}
+/* li{
+  padding:8px 10px;
+  border: 2px solid rgb(0, 149, 255);
+  cursor: pointer;
+  color: white;
+  font-size: 1rem;
+  font-weight: 900;
+  background-color:rgba(2, 62, 125, 0.5);
+  border-radius: 10px;   
+} */

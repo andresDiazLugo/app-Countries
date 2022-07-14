@@ -1,0 +1,40 @@
+.containerH2{
+    display: flex;
+    align-items: center;
+    
+}
+.containerH2 h2{
+    margin: 1rem 2rem;
+}
+.nav{
+    background-color: rgb(0, 18, 51,0.9);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+}
+.search{
+    margin-right: 2rem;
+}
+.btn{
+    
+    height: 2rem;
+    margin: auto 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: var(--color-naranja-botones);
+    color: #fff;
+    transition: 1s;
+    border: solid 1px #0000;
+    padding:0;
+}
+.btn:hover{
+background-color:var(--color-hoverBtn-botones);
+}
+.select{
+  background-color:var(--color-azulOscuro);
+  color: white;
+  border: solid 2px ;
+  margin-left:10px;
+}
